@@ -167,6 +167,12 @@ nav {
     text-decoration-color: #5a4fcf
 }
 
+.whiteUnderline:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: white
+}
+
 .customHr {
     border: 1px solid #303236;
     opacity: 70%
