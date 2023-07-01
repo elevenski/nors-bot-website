@@ -1,7 +1,10 @@
 @import"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap";
 
 :root {
-    --primaryBackgroundColor: #131415
+    --primaryColor: #131415;
+    --secondaryColor: #5a4fcf;
+    --tertiaryColor: #4fcfca;
+    --quaColor: #303236
 }
 
 *,
@@ -23,7 +26,7 @@ html {
 body {
     font-family: "Inter";
     transition: all 0.1s linear;
-    background-color: var(--primaryBackgroundColor);
+    background-color: var(--primaryColor)
 }
 
 img {
@@ -76,12 +79,12 @@ br {
         padding-top: 1em
     }
     .sidebar {
-        background-color: #131415
+        background-color: var(--primaryColor)
     }
 }
 
 nav {
-    /*background-color: var(--primaryBackgroundColor);*/
+    /*background-color: var(--primaryColor);*/
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px)
 }
@@ -137,7 +140,7 @@ nav {
 }
 
 .gradientBg {
-    background-image: linear-gradient(to right, #5a4fcf , #4fcfca)
+    background-image: linear-gradient(to right, var(--secondaryColor) , var(--tertiaryColor))
 }
 
 .blackBg {
@@ -164,11 +167,11 @@ nav {
 }
 
 .coloredBg:hover {
-    background-color: #5a4fcf
+    background-color: var(--secondaryColor)
 }
 
 .gradientColor {
-    background: linear-gradient(to right, #5a4fcf , #4fcfca);
+    background: linear-gradient(to right, var(--secondaryColor) , var(--tertiaryColor));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
 }
@@ -176,13 +179,13 @@ nav {
 .gradientUnderlineWH {
     text-decoration: underline;
     text-underline-position: under;
-    text-decoration-color: #5a4fcf
+    text-decoration-color: var(--secondaryColor)
 }
 
 .gradientUnderline:hover {
     text-decoration: underline;
     text-underline-position: under;
-    text-decoration-color: #5a4fcf
+    text-decoration-color: var(--secondaryColor)
 }
 
 .whiteUnderline:hover {
@@ -192,12 +195,12 @@ nav {
 }
 
 .customHr {
-    border: 1px solid #303236;
+    border: 1px solid var(--quaColor);
     opacity: 70%
 }
 
 .card {
-    border-top: 1px solid #303236
+    border-top: 1px solid var(--quaColor)
 }
 
 .cardWBg {
@@ -206,7 +209,7 @@ nav {
 }
 
 .sidebar {
-    border-right: 1px solid #303236;
+    border-right: 1px solid var(--quaColor)
 }
 
 .blackBgActive {
@@ -220,8 +223,4 @@ nav {
     background-color: #fff;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s linear
-}
-
-.dropdownBg {
-    background-color: #28292c
 }
