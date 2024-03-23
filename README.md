@@ -3,3 +3,10 @@
     <img width="100" src="https://raw.githubusercontent.com/elevenvac/elevenvac/master/011nobgLebensraum.png" alt="Eleven Icon">
   </a>
 </p>
+
+---
+
+### Discord Server
+<a href="https://discord.gg/uhwjhWryND">
+  <img src="http://invidget.switchblade.xyz/uhwjhWryND"/>
+</a>
