@@ -7,6 +7,6 @@
 ---
 
 ### Discord Server
-<a href="https://discord.gg/uhwjhWryND">
-  <img src="http://invidget.switchblade.xyz/uhwjhWryND"/>
+<a href="https://discord.gg/SSMFDRvrYz">
+  <img src="http://invidget.switchblade.xyz/SSMFDRvrYz"/>
 </a>
